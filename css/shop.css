@@ -1,0 +1,249 @@
+@charset "UTF-8";
+.header,
+.wrapper {
+  width: 100%;
+  font-family: "微软雅黑"; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "MicrosoftYaHei"; }
+
+.bg000 {
+  background-color: #000000; }
+
+input {
+  outline: none; }
+
+.defont {
+  color: #5e4d3b; }
+
+.nav {
+  width: 1440px;
+  margin: 0 auto; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+.cf {
+  clear: both; }
+
+.f3 {
+  color: #f3c326; }
+
+.row {
+  width: 1280px;
+  margin: 0 auto; }
+
+.index-top {
+  width: 100%;
+  height: 30px;
+  background-color: #000; }
+  .index-top .fl {
+    color: #fff;
+    line-height: 30px;
+    font-size: 13px;
+    margin-left: 10px; }
+  .index-top .fr {
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px; }
+    .index-top .fr a {
+      color: #fff;
+      text-decoration: none; }
+    .index-top .fr ul li {
+      display: inline-block;
+      margin: 0 10px; }
+    .index-top .fr ul .f3 {
+      margin: 0 5px; }
+    .index-top .fr ul img {
+      width: 13px;
+      height: 13px;
+      padding-right: 5px; }
+
+.logo {
+  background-color: #fff; }
+  .logo .index-logo {
+    width: 267px;
+    height: 99px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 10px; }
+  .logo .menu {
+    width: 550px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 12px; }
+    .logo .menu ul li {
+      display: inline-block;
+      margin: 0 11px; }
+      .logo .menu ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 15px; }
+  .logo .dz {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin-top: -32px;
+    margin-right: 10px;
+    border-bottom: 1px solid #f3c326; }
+    .logo .dz a {
+      color: #000;
+      font-size: 15px;
+      text-decoration: none; }
+
+.footer {
+  border-top: 2px solid #f3f3f3;
+  width: 1200px;
+  height: 430px;
+  margin: 80px auto 0; }
+  .footer > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px; }
+  .footer .footnav {
+    width: 150px; }
+    .footer .footnav ul li {
+      line-height: 30px; }
+      .footer .footnav ul li span {
+        margin-left: 10px;
+        font-size: 16px;
+        position: absolute; }
+      .footer .footnav ul li a {
+        font-size: 13px;
+        text-decoration: none;
+        color: #999;
+        letter-spacing: 3px; }
+    .footer .footnav ul li:nth-of-type(1) {
+      font-size: 13px;
+      font-weight: 600; }
+  .footer .copyright {
+    margin-left: 60px; }
+    .footer .copyright ul li {
+      letter-spacing: 1px;
+      font-size: 12px;
+      color: #979797;
+      line-height: 20px; }
+    .footer .copyright ul li:nth-of-type(1) {
+      letter-spacing: 0;
+      margin-bottom: 12px; }
+      .footer .copyright ul li:nth-of-type(1) span {
+        font-size: 14px;
+        color: #000;
+        margin-right: 15px; }
+
+body {
+  background: #fbfbfb; }
+
+.shop .title {
+  font-size: 14px;
+  margin: 20px 0; }
+
+.shop .shoplist {
+  background-color: #fff;
+  margin-top: 20px; }
+  .shop .shoplist .shopl {
+    width: 700px;
+    height: 700px;
+    float: left; }
+    .shop .shoplist .shopl img {
+      width: 700px;
+      height: 700px; }
+  .shop .shoplist .shopr {
+    float: left;
+    width: 500px;
+    margin-left: 18px; }
+    .shop .shoplist .shopr .shoptitle {
+      font-size: 22px; }
+    .shop .shoplist .shopr span {
+      font-size: 12px;
+      color: #ccc; }
+    .shop .shoplist .shopr .line {
+      border-top: 1px solid #eee;
+      margin-top: 10px; }
+    .shop .shoplist .shopr .shopsx {
+      margin-top: 10px; }
+      .shop .shoplist .shopr .shopsx .sxt {
+        font-size: 14px; }
+      .shop .shoplist .shopr .shopsx .sxlist a {
+        display: inline-block;
+        color: #000;
+        background-color: #ddd;
+        padding: 5px 18px;
+        margin-top: 5px;
+        text-decoration: none;
+        font-size: 13px; }
+      .shop .shoplist .shopr .shopsx .sxlist .item {
+        display: inline-block;
+        margin-top: 5px; }
+        .shop .shoplist .shopr .shopsx .sxlist .item img {
+          width: 90px;
+          height: 90px; }
+        .shop .shoplist .shopr .shopsx .sxlist .item span {
+          color: #f3c326;
+          font-size: 13px; }
+        .shop .shoplist .shopr .shopsx .sxlist .item div {
+          color: #000;
+          font-size: 12px; }
+      .shop .shoplist .shopr .shopsx .sxlist .itemx {
+        display: inline-block;
+        margin-top: 5px; }
+        .shop .shoplist .shopr .shopsx .sxlist .itemx img {
+          width: 120px;
+          height: 75px; }
+        .shop .shoplist .shopr .shopsx .sxlist .itemx span {
+          color: #f3c326;
+          font-size: 13px; }
+        .shop .shoplist .shopr .shopsx .sxlist .itemx div {
+          color: #000;
+          font-size: 12px; }
+    .shop .shoplist .shopr .price {
+      margin-top: 20px; }
+      .shop .shoplist .shopr .price .ptitle {
+        font-size: 12px; }
+      .shop .shoplist .shopr .price .p {
+        font-size: 26px;
+        color: #f3c326;
+        padding: 8px 0; }
+      .shop .shoplist .shopr .price .buttons {
+        margin-top: 10px; }
+        .shop .shoplist .shopr .price .buttons a:nth-of-type(1) {
+          margin-left: 0px; }
+        .shop .shoplist .shopr .price .buttons a {
+          color: #000;
+          border: 1px solid #000;
+          padding: 5px 26px;
+          text-decoration: none;
+          font-size: 12px;
+          margin-left: 16px;
+          letter-spacing: 3px; }
+        .shop .shoplist .shopr .price .buttons a.action {
+          background-color: #f3c326;
+          border: 1px solid #f3c326;
+          color: #fff; }
+
+.shopinfo {
+  text-align: center;
+  margin-top: 50px;
+  overflow: hidden; }
+  .shopinfo img {
+    max-width: 1280px; }
+  .shopinfo img:nth-of-type(2) {
+    width: 900px; }
+  .shopinfo img:nth-of-type(3) {
+    width: 900px; }
+  .shopinfo img:nth-of-type(4) {
+    width: 600px; }

@@ -1,0 +1,271 @@
+@charset "UTF-8";
+.header,
+.wrapper {
+  width: 100%;
+  font-family: "微软雅黑"; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "MicrosoftYaHei"; }
+
+.bg000 {
+  background-color: #000000; }
+
+input {
+  outline: none; }
+
+.defont {
+  color: #5e4d3b; }
+
+.nav {
+  width: 1440px;
+  margin: 0 auto; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+.cf {
+  clear: both; }
+
+.f3 {
+  color: #f3c326; }
+
+.row {
+  width: 1280px;
+  margin: 0 auto; }
+
+.index-top {
+  width: 100%;
+  height: 30px;
+  background-color: #000; }
+  .index-top .fl {
+    color: #fff;
+    line-height: 30px;
+    font-size: 13px;
+    margin-left: 10px; }
+  .index-top .fr {
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px; }
+    .index-top .fr a {
+      color: #fff;
+      text-decoration: none; }
+    .index-top .fr ul li {
+      display: inline-block;
+      margin: 0 10px; }
+    .index-top .fr ul .f3 {
+      margin: 0 5px; }
+    .index-top .fr ul img {
+      width: 13px;
+      height: 13px;
+      padding-right: 5px; }
+
+.logo {
+  background-color: #fff; }
+  .logo .index-logo {
+    width: 267px;
+    height: 99px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 10px; }
+  .logo .menu {
+    width: 550px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 12px; }
+    .logo .menu ul li {
+      display: inline-block;
+      margin: 0 11px; }
+      .logo .menu ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 15px; }
+  .logo .dz {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin-top: -32px;
+    margin-right: 10px;
+    border-bottom: 1px solid #f3c326; }
+    .logo .dz a {
+      color: #000;
+      font-size: 15px;
+      text-decoration: none; }
+
+.footer {
+  border-top: 2px solid #f3f3f3;
+  width: 1200px;
+  height: 430px;
+  margin: 80px auto 0; }
+  .footer > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px; }
+  .footer .footnav {
+    width: 150px; }
+    .footer .footnav ul li {
+      line-height: 30px; }
+      .footer .footnav ul li span {
+        margin-left: 10px;
+        font-size: 16px;
+        position: absolute; }
+      .footer .footnav ul li a {
+        font-size: 13px;
+        text-decoration: none;
+        color: #999;
+        letter-spacing: 3px; }
+    .footer .footnav ul li:nth-of-type(1) {
+      font-size: 13px;
+      font-weight: 600; }
+  .footer .copyright {
+    margin-left: 60px; }
+    .footer .copyright ul li {
+      letter-spacing: 1px;
+      font-size: 12px;
+      color: #979797;
+      line-height: 20px; }
+    .footer .copyright ul li:nth-of-type(1) {
+      letter-spacing: 0;
+      margin-bottom: 12px; }
+      .footer .copyright ul li:nth-of-type(1) span {
+        font-size: 14px;
+        color: #000;
+        margin-right: 15px; }
+
+.product .title {
+  font-size: 15px; }
+
+.product .queen {
+  margin-top: 20px; }
+  .product .queen .queen-item:nth-of-type(1) {
+    margin-left: 0px; }
+  .product .queen .queen-item {
+    margin-left: 50px;
+    display: inline-block; }
+    .product .queen .queen-item .qcinput {
+      height: 30px;
+      width: 170px;
+      color: #ddd;
+      padding-left: 5px;
+      -webkit-border-radius: 2px;
+              border-radius: 2px;
+      border: 1px solid #ddd; }
+    .product .queen .queen-item .search {
+      background: url("../images/jt.png");
+      width: 12px;
+      height: 12px;
+      display: block;
+      position: absolute;
+      margin-top: -22px;
+      margin-left: 160px; }
+    .product .queen .queen-item .qt {
+      font-size: 13px;
+      border-bottom: 1px solid #ddd;
+      width: 80px;
+      padding-bottom: 5px; }
+    .product .queen .queen-item .qc {
+      margin-top: 10px; }
+      .product .queen .queen-item .qc .qca {
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ddd;
+        padding: 6px 25px;
+        font-size: 13px;
+        color: #ddd;
+        text-decoration: none; }
+      .product .queen .queen-item .qc .qca.action {
+        background-color: #f3c326;
+        color: #fff;
+        border: 1px solid #f3c326; }
+      .product .queen .queen-item .qc .cell {
+        font-size: 16px;
+        display: inline-block; }
+        .product .queen .queen-item .qc .cell .caret-wrapper {
+          position: relative;
+          cursor: pointer;
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 5px;
+          margin-top: -2px;
+          width: 16px;
+          height: 30px;
+          overflow: visible;
+          overflow: initial; }
+          .product .queen .queen-item .qc .cell .caret-wrapper .sort-caret {
+            position: absolute;
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent; }
+          .product .queen .queen-item .qc .cell .caret-wrapper .ascending {
+            top: 9px;
+            border-top: none;
+            border-bottom: 5px solid #ddd; }
+          .product .queen .queen-item .qc .cell .caret-wrapper .descending {
+            bottom: 9px;
+            border-top: 5px solid #ddd;
+            border-bottom: none; }
+          .product .queen .queen-item .qc .cell .caret-wrapper .ascending.action {
+            border-bottom: 5px solid #f3c326; }
+          .product .queen .queen-item .qc .cell .caret-wrapper .descending.action {
+            border-top: 5px solid #f3c326; }
+
+.line {
+  border-bottom: 1px solid #eee;
+  margin-top: 35px; }
+
+.topline {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px; }
+
+.pmenu {
+  position: absolute;
+  margin-left: -30px; }
+  .pmenu img {
+    width: 15px;
+    height: 14px; }
+  .pmenu div {
+    width: 74px;
+    margin-top: 30px;
+    margin-left: -60px; }
+    .pmenu div a {
+      display: block;
+      color: #ccc;
+      width: 74px;
+      margin-top: 3px;
+      text-decoration: none;
+      font-size: 14px;
+      border-right: 2px solid #ccc; }
+    .pmenu div .action {
+      border-right: 2px solid #f3c326;
+      color: #f3c326; }
+
+.news a:nth-child(4n-3) {
+  margin-left: 0px; }
+
+.news a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 28px;
+  color: #000;
+  margin-left: 50px; }
+  .news a img {
+    width: 270px;
+    height: 270px; }
+  .news a .info {
+    padding: 20px 0 30px 0px;
+    font-size: 13px; }
+    .news a .info .t {
+      font-weight: 600;
+      margin: 5px 0; }
